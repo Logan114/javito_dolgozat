@@ -13,4 +13,3 @@ def hettel_oszthato(lista):
             oszthato_szamok += 1
     print (f"\nA listában {oszthato_szamok} héttel oszható szám van")
 
-hettel_oszthato(random_lista)

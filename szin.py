@@ -3,7 +3,7 @@ def keveres(min,max):
     if len(szinkodok) < min:
         print("Nem megfelelő hossz")
     elif len(szinkodok)>max:
-        print("Bonyolult kiszámolni")
+        print("Nem megfelelő hossz")
     else:
         print("Megfelelő hossz")
 
@@ -15,3 +15,5 @@ def szin():
         keveres(6,6)
     elif keveres_fajta == "HSL" or "hsl":
         keveres(7,13)
+    else:
+        print("Túl bonyolult kiszámolni")

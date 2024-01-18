@@ -54,10 +54,3 @@ def ertekes(auto_lista):
     print (f"A legöregebb autó: {legoregebb_nev} {legoregebb}")
 
 
-print("I. Kor")
-kor(auto_lista, "Audi A1")
-print("\nII. Flotta")
-flotta(auto_lista)
-print("\nIII. Értékes")
-ertekes(auto_lista)
-ki(auto_lista)
